@@ -4,10 +4,15 @@
     },
     "dependencies": {
         "@airtable/blocks": "^1.11.1",
-        "primeicons": "^5.0.0",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/react-fontawesome": "^0.1.18",
+        "font-awesome": "^4.7.0",
         "primereact": "6.4.1",
         "react": "^16.9.0",
-        "react-dom": "^16.9.0"
+        "react-dom": "^16.9.0",
+        "react-transition-group": "^4.4.2"
     },
     "devDependencies": {
         "@airtable/blocks-webpack-bundler": "^0.0.2",

@@ -1,10 +1,14 @@
-import {initializeBlock} from '@airtable/blocks/ui';
+import { initializeBlock } from '@airtable/blocks/ui';
 import React from 'react';
-import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
-import "primereact/resources/primereact.min.css";                  //core css
-import "primeicons/primeicons.css";                                //icons
 import './index.scss';
+import { Panel } from 'primereact/panel';
+import { FontAwesomeIcon as FAIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faChalkboardUser } from '@fortawesome/free-solid-svg-icons';
 
-const App = () => <div className="container">Hello from InAir Studio!</div>;
+const App = () => (
+    <Panel header="Hello from InAir Studio!">
+        <p>Let's start building a custom app with PrimeReact! <FAIcon color="#0077dd" icon={faChalkboardUser} /><FAIcon icon={faCoffee} /></p>
+    </Panel>
+);
 
-initializeBlock(() => <App/>);
+initializeBlock(() => <App />);
